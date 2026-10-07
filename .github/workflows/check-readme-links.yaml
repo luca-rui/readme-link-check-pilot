@@ -14,6 +14,7 @@ jobs:
     uses: giantswarm/github-workflows/.github/workflows/check-readme-links.yaml@check-readme-links
     with:
       fail_on_error: ${{ github.event_name == 'pull_request' || inputs.fail_on_error }}
+      config_ref: check-readme-links
     permissions:
       contents: read
       issues: write
