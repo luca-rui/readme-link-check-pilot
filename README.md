@@ -55,17 +55,17 @@ falcosidekick:
 #### Falco Configurations
 
 Please see the below page for configurable values.
-[Falco Configuration](helm/falco-app/charts/falco#configuration)
+[Falco Configuration](https://github.com/giantswarm/falco-app/tree/main/helm/falco#readme)
 
 #### Falco Exporter Configurations
 
 Please see the below page for configurable values.
-[Falco Exporter Configuration](helm/falco-app/charts/falco-exporter#configuration)
+[Falco Exporter Configuration](https://github.com/giantswarm/falco-app/tree/main/helm/falco#readme)
 
 #### Falco sidekick Configurations
 
 Please see the below page for configurable values.
-[Falco sidekick Configuration](helm/falco-app/charts/falcosidekick#configuration)
+[Falco sidekick Configuration](https://github.com/giantswarm/falco-app/tree/main/helm/falco#readme)
 
 ### Sample App CR and ConfigMap for the management cluster
 
@@ -89,9 +89,9 @@ See our [full reference page on how to configure applications][app-config] for m
 
 * https://github.com/falcosecurity/charts
 
-[app-config]: https://docs.giantswarm.io/app-platform/app-configuration/
-[app-crd]: https://docs.giantswarm.io/ui-api/management-api/crd/apps.application.giantswarm.io/
-[app-getting-started]: https://docs.giantswarm.io/app-platform/getting-started/
-[app-ui]: https://docs.giantswarm.io/ui-api/web/app-platform/#installing-an-app
+[app-config]: https://docs.giantswarm.io/tutorials/fleet-management/app-platform/app-configuration/
+[app-crd]: https://docs.giantswarm.io/reference/platform-api/crd/apps.application.giantswarm.io/
+[app-getting-started]: https://docs.giantswarm.io/tutorials/fleet-management/app-platform/
+[app-ui]: https://docs.giantswarm.io/tutorials/fleet-management/app-platform/deploy-app/
 
-See the (Trivy documentation)[https://aquasecurity.github.io/trivy/] for details.
+See the [Trivy documentation](https://aquasecurity.github.io/trivy/) for details.
